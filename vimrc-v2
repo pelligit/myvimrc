@@ -1,0 +1,86 @@
+" vundle配置开始
+
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Bundle 'sickill/vim-monokai'
+
+" 树形插件
+Bundle 'The-NERD-tree'
+Bundle 'The-NERD-Commenter'
+
+Bundle 'bling/vim-airline'
+
+Bundle 'kien/ctrlp.vim'
+
+" markdown插件
+Bundle 'godlygeek/tabular'
+Bundle 'plasticboy/vim-markdown'
+
+" 自动补全括号
+Bundle 'jiangmiao/auto-pairs'
+
+" git信息显示
+Bundle 'airblade/vim-gitgutter'
+
+" emmet插件
+Plugin 'mattn/emmet-vim'
+
+" jsdoc插件
+Plugin 'heavenshell/vim-jsdoc'
+
+" typescript
+Plugin 'leafgarland/typescript-vim'
+
+" es6
+Plugin 'isruslan/vim-es6'
+
+call vundle#end()
+
+filetype plugin indent on
+" ----------------以上是插件列表------------------ "
+" ----------------以下是插件配置------------------ "
+" 配置monokai主题
+syntax enable
+colorscheme monokai
+
+" 开启文件浏览器
+map \ :NERDTree<enter>
+
+" 配置vim-aireline
+set laststatus=2
+
+" ----------------以上是插件配置------------------ "
+" ----------------以下是常规设置------------------ "
+set number
+set wrap
+
+set autoindent
+set cindent
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+set enc=utf-8
+set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
+
+set langmenu=zh_CN.UTF-8
+set helplang=cn
+
+set backspace=2
+
+" 键盘映射
+imap jk <esc>
+
+map! <C-A> <Esc>ggVGY
+map <F12> gg=G
+
+vmap <space> :
+nmap <space> :
