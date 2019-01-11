@@ -27,7 +27,8 @@ $ mv .vimrc .vimrc.backup
 $ touch .vimrc
 
 # 接下来编辑.vimrc文件
-# .vimrc的内容就是此仓库里面的vimrc-v1等文件
+# .vimrc的内容就是此仓库里面的vimrc-v1等文件里的内容
+$ cp -f vimrc-v1 ~/.vimrc
 
 # vim配置文件.vimrc编辑结束之后
 # 打开vim
