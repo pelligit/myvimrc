@@ -69,3 +69,7 @@ vim configuration
 * 新增多窗口快速切换窗口，使用`we`替代`Ctrl+W`
 * 新增快捷键，使用`1`左右分屏
 * 新增快捷键，使用`2`上下分屏
+
+**vimrc-v4**
+
+* 新增搜索高亮：`set hlsearch`
