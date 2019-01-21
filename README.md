@@ -1,13 +1,3 @@
-### 相关链接
-
-<ul>
-<li><a href="https://vimawesome.com/">vim插件大全</a>  </li>
-<li><a href="https://www.vim.org/">vim官方网站</a>  </li>
-<li><a href="https://github.com/VundleVim/Vundle.vim">vim插件管理-vundle</a></li>
-<li><a href="https://spacevim.org/cn/">space vim</a></li>
-<li><a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">Learn-Vim-Progressively</a></li>
-</ul>
-
 ### myvimrc
 
 我的vim配置文件
@@ -45,33 +35,4 @@ vim configuration
 
 这里我是使用了一个键盘映射工具——KeybMap，是从互联网上下载的一个工具
 
-为了便于以后使用，就直接打包在这个仓库里面了。
-
-### 各版本说明
-
-**vimrc-v1**
-
-初始配置项
-
-使用vundle，安装一些基本插件
-
-* 使用monokai主题
-* 使用文件浏览器插件
-* 使用Markdown插件
-* 使用git提示插件
-
-**vimrc-v2**
-
-* 将空格键映射为":"
-* 新增ts插件
-* 增加es语法插件
-
-**vimrc-v3**
-
-* 新增多窗口快速切换窗口，使用`we`替代`Ctrl+W`
-* 新增快捷键，使用`1`左右分屏
-* 新增快捷键，使用`2`上下分屏
-
-**vimrc-v4**
-
-* 新增搜索高亮：`set hlsearch`
+z了便于以后使用，就直接打包在这个仓库里面了。
