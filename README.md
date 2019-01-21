@@ -5,6 +5,7 @@
 <li><a href="https://www.vim.org/">vim官方网站</a>  </li>
 <li><a href="https://github.com/VundleVim/Vundle.vim">vim插件管理-vundle</a></li>
 <li><a href="https://spacevim.org/cn/">space vim</a></li>
+<li><a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">Learn-Vim-Progressively</a></li>
 </ul>
 
 ### myvimrc
