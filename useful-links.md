@@ -11,3 +11,5 @@
 * <a href='https://cenalulu.github.io/linux/all-vim-cheatsheat/'>史上最全Vim快捷键键位图 -- 入门到进阶</a>
 * <a href="http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/">Learn-Vim-Progressively</a>
 * <a href="http://www.vimgolf.com/">vimgolf: 如何按最少次数的键</a>
+* <a href="http://vimcdoc.sourceforge.net/">VIM 在线文档 doc</a>
+* <a href='https://sourceforge.net/'>source forge</a>
