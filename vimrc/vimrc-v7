@@ -41,6 +41,8 @@ Plugin 'leafgarland/typescript-vim'
 " es6
 Plugin 'isruslan/vim-es6'
 
+Plugin 'iamcco/markdown-preview.vim'
+
 call vundle#end()
 
 filetype plugin indent on
