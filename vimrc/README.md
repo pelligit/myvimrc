@@ -34,3 +34,7 @@
 **vimrc-v6**
 
 * 新增配置项：set cursorline——高亮当前行
+
+**vimrc-v7**
+
+* 文件浏览器插件增加行号：'map \ :NERDTree<enter>:set nu<enter>'
